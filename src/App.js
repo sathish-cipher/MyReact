@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/MyReact/" exact component={Home} />
           <Route path="/signin" component={SignIn} />
           <Route path="/product" component={Prooduct} />
           <Route path="/signup" component={SignUp} />
@@ -25,7 +25,7 @@ function App() {
 }
 const Home = () => (
   <div>
-    <h1>This is Homepage</h1>
+    <h1>Home page</h1>
   </div>
 );
 export default App;
